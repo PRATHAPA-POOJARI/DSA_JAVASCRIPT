@@ -1,0 +1,12 @@
+console.log(Math.round(10.5))
+console.log(Math.floor(10.6))
+console.log(Math.ceil(10.6))
+console.log(Math.trunc(10.69));
+ console.log(Math.pow(10,6));
+ console.log(Math.sqrt(16));
+ console.log(Math.cbrt(16));
+ console.log(Math.abs(-19));
+ console.log(Math.max(12,67,89));
+  console.log(Math.min(12,67,89));
+  console.log(Math.random())
+   console.log(Math.trunc((Math.random()*9000)+1000));
