@@ -1,3 +1,5 @@
+
+
 // const product = [
 //     {
 //         name:'laptop',
@@ -22,13 +24,11 @@
 // })
 
 
-
-
 const numbers = [1, 2, 3, 4, 5, 6];
 const  pk = numbers.filter(even)
 const mk = numbers.filter(odd)
-console.log(pk)
-console.log(mk)
+console.log(`the output of even numberis: ${pk}`)
+console.log(`the output of odd number is: ${mk}`)
 
 function even ( num){
     return num % 2 ===0

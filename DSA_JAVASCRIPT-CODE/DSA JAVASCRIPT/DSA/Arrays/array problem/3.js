@@ -14,6 +14,7 @@ console.log(reversedArr); // Output: [5, 4, 3, 2, 1]
 //3. Using a for Loop (Manual Reversal)
 
 
+ 
 function reverseArray(arr) {
     let reversed = [];
     for (let i = arr.length - 1; i >= 0; i--) {
@@ -25,8 +26,6 @@ function reverseArray(arr) {
   console.log(reverseArray([1, 2, 3, 4, 5])); // Output: [5, 4, 3, 2, 1]
   
 
-
-
 function reverse(arr) {
   let back = []
   for(let i =arr.length-1;i>=0;i--){
@@ -35,9 +34,8 @@ function reverse(arr) {
   return back
 }
 
-
-
 let sp = reverse([2,5,6,87,8,8]);
 console.log(sp)
+
 
 

@@ -4,7 +4,7 @@ sessionStorage.setItem('step', '2');
 // Get
 const step = sessionStorage.getItem('step'); // '2'
 
-// Remove
+// Remove                                          
 sessionStorage.removeItem('step');
 
 // Clear all

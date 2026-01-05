@@ -3,12 +3,17 @@
 
 // useing temporary variable 
 
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
-let temp = a;
-a = b;
-b = temp;
+// let temp = a;
+// a = b;
+// b = temp;
 
-console.log(a, b); // 20 10
- 
+// console.log(a, b); // 20 10
+
+
+
+
+
+

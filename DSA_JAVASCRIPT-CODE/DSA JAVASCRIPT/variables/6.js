@@ -2,7 +2,6 @@
 
 //reason  for cannot redeclare block scoped variable pk 
 let  pk ="  hai prathapa"
+     pk = "this is mang"
 
-   let   pk = "this is mang"
-
-     console.log(pk)
+     console.log(pk)                         

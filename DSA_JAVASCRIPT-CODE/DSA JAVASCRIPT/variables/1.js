@@ -1,5 +1,5 @@
 let pk = 23;
 
-if( px = 45) {
-    console.log(px)
+if( pk= 45) {
+    console.log(pk)
 }

@@ -6,6 +6,7 @@ constructor(name,native,state,ph){
     this.state=state;
     this.ph =ph;
 }
+
 display() {
     console.log(`values:${this.name} ${this.native} ${this.state} ${this.ph}`);
 }

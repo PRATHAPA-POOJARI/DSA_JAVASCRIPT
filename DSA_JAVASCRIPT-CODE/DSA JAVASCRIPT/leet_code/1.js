@@ -31,10 +31,3 @@ console.log(twoSum(nums2, target2));
 
 
 
-
-
-let pk = sum(nums,target) { 
-    for(let i =0;i<pk.length;i++) {
-
-    }
-}

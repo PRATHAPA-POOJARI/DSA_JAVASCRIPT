@@ -13,13 +13,24 @@
    
 // console.log(`the smallest element is ${min}`)
 
-let pk = [20,40,1,34,34]
 
-let min = pk [0];
-for(let i =0;i<=pk.length;i++) {
-   if(pk[i]<min)
+// let pk = [199,2,34,5,6]
+// let small = pk[0];
+// for(let i =0 ;i<=pk.length;i++){
+//    if(pk[i]<small)
+//       small = pk[i]
+// }
+// console.log(small)               
 
-      min = pk[i]
+let arr = [23,45,67,77];
+
+let small = arr[0];
+
+
+for(let i =0;i<arr.length;i++) {
+
+    if(arr[i]<small){
+        small = arr[i]
+    }
 }
-
-console.log(min)
+console.log(small)

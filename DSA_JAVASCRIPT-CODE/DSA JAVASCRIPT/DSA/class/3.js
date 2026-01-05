@@ -2,7 +2,7 @@
 
 class Stack {
     constructor(){
-        this.pk = " fgdsfdfdsfdf"
+      this.pk = " fgdsfdfdsfdf"
     }
 }
 

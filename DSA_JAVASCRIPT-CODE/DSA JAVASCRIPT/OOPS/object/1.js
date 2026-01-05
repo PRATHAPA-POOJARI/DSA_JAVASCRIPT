@@ -1,4 +1,4 @@
-// //  2. using object literals
+// // //  2. using object literals
 
 // const sp = {
 //     name:" prathap ",
@@ -11,4 +11,12 @@
 
 // sp.greet();
 
+let pk = {
+    name:'prathap',
+    native:'banglore',
+
+};
+
+console.log(pk)
+console.log(pk.name)
 

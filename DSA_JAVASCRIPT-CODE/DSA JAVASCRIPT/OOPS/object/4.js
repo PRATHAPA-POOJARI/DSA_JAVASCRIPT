@@ -11,5 +11,5 @@ let obj1 = { name:'sdfsfs'}
 
 let obje2  ={ name :"sksmxc"}
 
-let obj3 = { object.assign({}, obj1,obj2)}
+let obj3 = { object.assign({}, obj1,obj2)},
 console.log(obj3)
