@@ -1,14 +1,35 @@
 
 
-function pk(callback) {
-console.log(" hai man this is prathap")
+// function pk(jabu) {
+// console.log(" hai man this is prathap")
 
-return callback();
+// return jabu();
+// }
+
+// function sp() {
+
+// console.log('janu')
+
+// }
+// pk(sp)
+
+
+
+
+
+
+
+
+
+
+
+function pk(janu){
+    console.log(' hai gada yenta')
+  return janu()
 }
 
-function sp() {
-
-console.log('janu')
-
+function jp(){
+    console.log(' hai sonu')
 }
-pk(sp)
+
+pk(jp)
