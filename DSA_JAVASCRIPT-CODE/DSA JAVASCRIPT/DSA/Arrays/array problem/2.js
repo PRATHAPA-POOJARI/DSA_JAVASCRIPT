@@ -15,20 +15,15 @@
 
 
 
-let arr =[45,334,55,33,22222,1];
-let large = arr[0];
-for(let i = 0;i<arr.length;i++)
-{
-    if(arr[i]>large){
-        large= arr[i]
-    }
-}
-console.log(large)
-
-
-
-
-
+// let arr =[45,334,55,33,22222,1];
+// let large = arr[0];
+// for(let i = 0;i<arr.length;i++)
+// {
+//     if(arr[i]>large){
+//         large= arr[i]
+//     }
+// }
+// console.log(large)
 
 
 let pk = [1,3,50,50000];
@@ -37,5 +32,6 @@ for(let i =0;i<=pk.length;i++){
     if(pk[i]>largest) 
     largest= pk[i]
 }
+return largest
 
-console.log(largest)
+
