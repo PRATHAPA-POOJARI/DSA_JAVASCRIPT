@@ -6,4 +6,4 @@ console.log(st);
 return mk;
 }
 let closure = pk();
-closure();
+closure();                                                                                              
