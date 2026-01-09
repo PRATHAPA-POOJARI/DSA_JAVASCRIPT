@@ -6,15 +6,8 @@
 //     result = pk[i]+result
 // }
 
+
 // console.log(result)
-
-
-
-
-
-
-
-
 
 // let jp  = [ 2,4,3,4,3,2];
 
