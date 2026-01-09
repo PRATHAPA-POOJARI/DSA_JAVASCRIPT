@@ -24,20 +24,44 @@
 // console.log(car1.displayInfo());
 // console.log(car2.displayInfo());
 
-class Prathap {
-  constructor(name, year) {
-    this.pk = name;
-    this.year = year;
-  }
+// class Prathap {
+//   constructor(name, year) {
+//     this.pk = name;
+//     this.year = year;
+//   }
   
-display() {
+// display() {
  
-    console.log(`hai man ${this.pk}`)
+//     console.log(`hai man ${this.pk}`)
+// }
+
+
+// }
+
+// const car1 = new Prathap("BMW", 2020);
+
+
+
+// car1.display()
+
+
+
+class  Prathap {
+
+  constructor(name,age){
+
+    this.name = name;
+    this.age = age;
+  }
+
+  display(){
+
+    console.log(`values is ${this.name} ${this.age}`)
+  }
 }
-}
-
-const car1 = new Prathap("BMW", 2020);
 
 
-
-car1.display()
+const pk = new Prathap("prathap",'20')
+const pk1 = new Prathap("prathap",'20')
+pk.display()
+pk1.display()
