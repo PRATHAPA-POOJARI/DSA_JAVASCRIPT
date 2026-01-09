@@ -12,11 +12,9 @@ class LinkedList {
     constructor() {
         this.head = null; // The head of the list (initially empty)
     }
-
     // Add a node at the end of the list
     append(data) {
         let newNode = new Node(data); // Create a new node
-
         if (this.head === null) {
             this.head = newNode; // If the list is empty, make the new node the head
             return;
@@ -30,7 +28,7 @@ class LinkedList {
         current.next = newNode; // Add the new node at the end
     }
 
-    // Print the list
+   // Print the list
     printList() {
         let current = this.head;
         while (current !== null) { // Traverse the list
@@ -39,8 +37,6 @@ class LinkedList {
         }
     }
 }
-
-
 // Step 3: Use the LinkedList Class
 let myList = new LinkedList(); // Create a new linked list
 // Add nodes to the list
