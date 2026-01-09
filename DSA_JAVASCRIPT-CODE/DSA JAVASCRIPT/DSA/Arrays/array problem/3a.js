@@ -15,7 +15,7 @@
 
 
 
-
+``
 // let arr = [ 23,45,55,66,77];
 
 // let reverse = [];
@@ -39,3 +39,4 @@ for(let i =pk.length-1;i>=0;i--){
 }
 
 console.log(reverse)
+
