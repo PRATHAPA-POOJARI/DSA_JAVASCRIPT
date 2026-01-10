@@ -1,5 +1,5 @@
-let pk = isNaN(true)
+let pk = isNaN(12);
 
-console.log(pk)
+console.log(pk);
 
 //false

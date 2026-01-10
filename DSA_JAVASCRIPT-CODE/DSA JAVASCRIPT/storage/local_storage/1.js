@@ -5,7 +5,7 @@ localStorage.setItem('username', 'John');
 const user = localStorage.getItem('username'); // 'John'
                                                                                                                                                                     
 // Remove
-localStorage.removeItem('username');
+// localStorage.removeItem('username');
 
-// Clear all
-localStorage.clear();
+// // Clear all
+// localStorage.clear();

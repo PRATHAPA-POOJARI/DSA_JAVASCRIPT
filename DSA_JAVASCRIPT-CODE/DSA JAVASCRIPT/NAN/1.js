@@ -1,5 +1,9 @@
-let pk = isNaN(NaN)
+// let pk = isNaN(NaN)
 
-console.log(pk)
+// console.log(pk)
 
-// true 
+// // true 
+
+let sp =isNaN([]);
+
+console.log(sp)

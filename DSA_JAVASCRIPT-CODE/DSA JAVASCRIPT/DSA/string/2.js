@@ -1,9 +1,38 @@
-// Ques 1:  Given an input string  s,   reverse the order of  the words 
+// Reverse a String
+ 
+// solution :1 
+// let sp = " hai ";
 
-// Input :  'the sky is blue ' ->->->->  output: blue is sky the
-//Input : "hello  world"        ->->->   output : world helo
-//Input : "  a good example"    ->->->   output: example good a"
+// let janu  =  " "
 
+// for(let i=sp.length-1;i>=0;i--){
 
-//'the sky is blue' =>[the,sky,is,blue]
-//  [] => [the,sky,is,blue] =>  blue is sky the
+//     janu = janu+ sp[i]
+// }
+// console.log(janu)
+
+// solution :2;
+
+//  function pk (str){
+
+//     let reverse = "  "
+
+//     for(let i = str.length-1;i>=0;i--) {
+
+//         reverse = reverse+str[i]
+//     }
+    
+//     return reverse;
+//  }
+
+// let sp = pk(" i love u")
+
+// console.log(sp);
+
+let  arr = 'hai man'
+let reverse = ''
+for(let i =arr.length-1;i>=0;i--){
+    reverse =reverse+arr[i]
+}
+
+console.log(reverse)
