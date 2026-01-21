@@ -77,17 +77,13 @@
 
 
 
+let arr =[2,3,32,43,23,1];
+let small = arr[0];
 
-
-let arr = [2,3,4,500,22,23,0];
-
-let  large = arr[0];
-
-for(let i =0;i<=arr.length-1;i++){
-    if(arr[i]<large){
-        large = arr[i]
+for(let i =0;i<arr.length;i++){
+    if(arr[i]<small){
+        small = arr[i]
     }
-};
+}
 
-
-console.log(large)
+console.log('smallest element is:', small)
