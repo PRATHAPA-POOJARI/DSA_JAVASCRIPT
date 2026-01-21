@@ -1,11 +1,5 @@
- 
-
-let arr  =[ 23,5,7,8,9,8];
-let reverse = [];
-
-for(let i = arr.length-1;i>=0;i--){
-    reverse.push(arr[i])
-}
+let arr  = [2,3,3,4,322,111,1111];
 
 
-console.log(reverse)
+let jp = arr.slice().reverse();
+console.log(jp)
