@@ -6,3 +6,5 @@ function test(input) {
 console.log(test(""));      // undefined
 console.log(test("   "));   // undefined
 console.log(test("abc"));   // Hello
+
+
