@@ -1,18 +1,14 @@
-// check whether prime no or not 
+// // check whether prime no or not
 
-let pk =11;
- let isPrime  = true;
+let num = 11;
+let i = 2;
+let isPrime = true;
 
- for(let i =2;i<pk;i++){
-    if(pk % i ==0){
-         isPrime =false;
-          break;
-    }
- };
+if (num <= 1) isPrime = false;
 
- if(isPrime){
-     console.log(('it is  a prime number '));
- }
- else {
-    console.log(" it is  not prime")
- }
+while (i < num && isPrime) {
+  if (num % i === 0) isPrime = false;
+  i++;
+}
+
+console.log(isPrime ? "Prime" : "Not Prime");
