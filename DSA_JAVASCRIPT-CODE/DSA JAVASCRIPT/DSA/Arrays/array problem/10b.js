@@ -1,4 +1,6 @@
 
+// program to print odd numbers in an array
+
 // let sp = [2,3,55,17,3]
 
 // for(let i =0;i<sp.length;i++){
@@ -10,6 +12,19 @@
 // }
 
 
+// let sp  = [5,6,3,11,23];
+
+// let odd  = [];
+
+// for(let i  = 0;i< sp.length;i++) {
+
+//     if(sp[i]% 2 !==0){
+
+//         odd.push(sp[i])
+//     }
+// }
+
+// console.log(odd)
 
 
 
@@ -19,16 +34,23 @@
 
 
 
-let sp  = [5,6,3,11,23];
 
-let odd  = [];
 
-for(let i  = 0;i< sp.length;i++) {
 
-    if(sp[i]% 2 !==0){
 
-        odd.push(sp[i])
-    }
+
+
+
+
+
+let  arr = [5,6,3,11,23];
+
+let  odd =[]    ;
+
+for(let i =0;i<arr.length;i++){
+    if(arr[i]%2 !==0)   {   
+        odd.push(arr[i])
+}
 }
 
 console.log(odd)
