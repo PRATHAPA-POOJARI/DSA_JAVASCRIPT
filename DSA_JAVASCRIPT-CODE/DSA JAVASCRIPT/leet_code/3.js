@@ -1,27 +1,26 @@
 
+// to find  second larget number in strings
 
-// Second Largest Digit in a String
-// Given a string s consisting of lowercase English letters, digits, and symbols, return the second largest digit that appears in s, or -1 if it does not exist.
+var secondHighest  = function (s){
+let max = -1;
+let secondMax = -1;
 
-// /** 
-
-var secondHighest = function(s) {
-    let max = -1;
-    let secondMax = -1;
-
-    for (let ch of s) {
-        if (ch >= '0' && ch <= '9') {
-            let num = Number(ch);
-
-            if (num > max) {
-                secondMax = max;
-                max = num;
-            } 
-            else if (num < max && num > secondMax) {
-                secondMax = num;
-            }
-        }
+for(let  ch of s){
+    if(ch>= '0' && ch<='9'){
+      let num = Number(ch)
+    
+    if(num>max){
+        secondMax = max;
+        max = num
     }
+    else if(num<max &&  num >secondMax){
+            secondMax= num;
+    }
+}
+}
+return secondMax
+ }
 
-    return secondMax;
-};     
+
+ let pk = '2ssjw32421knnsdjk45';
+ console.log(secondHighest(pk))
