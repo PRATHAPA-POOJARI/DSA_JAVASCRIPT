@@ -4,3 +4,4 @@ let  sk = ['banana','mango','apple'];
     console.log(sk)
     console.log(sp);
     
+    
