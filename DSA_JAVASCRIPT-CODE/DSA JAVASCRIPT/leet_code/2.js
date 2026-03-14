@@ -1,4 +1,5 @@
 
+
 let twoSum = function(num,target){
     for(let i =0;i<num.length;i++) {
         for(let j =i+1;j<num.length;j++){
