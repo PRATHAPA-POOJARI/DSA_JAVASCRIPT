@@ -1,7 +1,6 @@
 
 console.log(pk)
- let  pk = 'hai';
+ var  pk= 'hai';
 
- console.log(pk)
-
-z
+// scope starts here
+// TDZ opens here ⬅️
