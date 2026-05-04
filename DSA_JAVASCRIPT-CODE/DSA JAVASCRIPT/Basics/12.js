@@ -7,3 +7,5 @@ let c;
  a =b
  b= c
  console.log(a,b)
+
+
