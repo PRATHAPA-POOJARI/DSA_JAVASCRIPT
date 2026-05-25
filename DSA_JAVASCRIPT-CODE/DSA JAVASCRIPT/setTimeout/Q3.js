@@ -1,0 +1,1 @@
+// Cancel a timeout using clearTimeout.
