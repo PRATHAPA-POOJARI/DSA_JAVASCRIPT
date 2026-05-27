@@ -1,0 +1,1 @@
+// Create a typing effect animation.
