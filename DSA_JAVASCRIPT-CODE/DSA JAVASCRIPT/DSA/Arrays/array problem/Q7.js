@@ -2,7 +2,6 @@
 
 
   let   kp= function(arr) {
-
    let  secondLargest = -Infinity;
    let largest = -Infinity;
    for (let i =0;i<arr.length;i++){
