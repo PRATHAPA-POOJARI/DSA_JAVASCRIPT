@@ -8,5 +8,5 @@ setInterval(()=>{
     const  date = pk.toLocaleDateString("en-IN")
     const time  = pk.toLocaleTimeString("en-IN")
   console.log(`${date} ${time}`)
-
 },1000)
+
