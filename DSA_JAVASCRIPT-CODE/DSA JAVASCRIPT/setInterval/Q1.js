@@ -1,3 +1,5 @@
+
+// Create a digital countdown timer using setInterval(). 
 let  timeLeft = 10;
 
   const timer = setInterval(()=>{
