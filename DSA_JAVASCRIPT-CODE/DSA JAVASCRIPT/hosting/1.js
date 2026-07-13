@@ -1,7 +1,3 @@
 
 
-function pk (){
-    console.log('hai')
-}
-
-pk()
+console.log(a)
