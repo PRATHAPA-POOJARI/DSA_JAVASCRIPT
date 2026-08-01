@@ -3,6 +3,6 @@
 
 let arr = [2,4,3,4,3,2,2,1];
 
-let s = new Set(arr);
+let s =[ ...new Set(arr)]
 
 console.log(s)

@@ -2,7 +2,10 @@
 
 let sp  = [23,23,23,23,44,44,44,5,6,7,8];
 
-let mk = new Set(sp);
+let mk = new Jp(sp);
 
-console.log(sp.length)
-console.log(mk.size)
+
+console.log(mk)
+
+
+
