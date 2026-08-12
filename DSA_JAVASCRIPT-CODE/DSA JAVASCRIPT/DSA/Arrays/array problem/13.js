@@ -9,7 +9,7 @@ function isSorted(arr) {{
   return true;
 }}
 
-let pk = [1,2,3,4,5];
+let pk = [1,5,3,4,5];
 
 console.log(isSorted(pk))
 

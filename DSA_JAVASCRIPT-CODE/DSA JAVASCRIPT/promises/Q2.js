@@ -2,10 +2,11 @@
 
 const promise1 = new  Promise((resolve,reject)=>{
     resolve ("Hello  world");
-    
 });
 
 promise1.then((pk)=>{
     console.log(pk)
 })
+
+
 

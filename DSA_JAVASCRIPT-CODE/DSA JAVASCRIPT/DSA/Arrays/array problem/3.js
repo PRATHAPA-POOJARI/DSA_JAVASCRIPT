@@ -11,8 +11,6 @@ let arr = [1, 2, 3, 4,45, 5];
 let reversedArr = arr.slice().reverse();
 console.log(reversedArr); // Output: [5, 4, 3, 2, 1]
 
-//3. Using a for Loop (Manual Reversal)
-
 function reverseArray(arr) {
     let reversed = [];
     for (let i = arr.length - 1; i >= 0; i--) {
@@ -21,7 +19,7 @@ function reverseArray(arr) {
     return reversed;
   }
   
-  console.log(reverseArray([1, 2, 3, 4, 5])); // Output: [5, 4, 3, 2, 1]
+console.log(reverseArray([1, 2, 3, 4, 5])); // Output: [5, 4, 3, 2, 1]
 function reverse(arr) {
   let back = []
   for(let i =arr.length-1;i>=0;i--){

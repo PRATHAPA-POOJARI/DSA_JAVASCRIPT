@@ -10,19 +10,6 @@
 // greet("Pratap", sayBye);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function greet(name ,callback) {
   console.log(" hello "+ name)
 

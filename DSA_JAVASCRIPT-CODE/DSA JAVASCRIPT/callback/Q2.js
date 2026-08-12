@@ -9,7 +9,7 @@ function  kp(nanu){
 
 
 function sp(){
-    console.log(" hai janu")
+console.log("hhahahahha ")
 };
 
 kp(sp)

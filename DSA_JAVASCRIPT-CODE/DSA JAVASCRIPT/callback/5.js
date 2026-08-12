@@ -14,25 +14,9 @@
 // greetUser(sayHello)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function deepak(callback){
 
-    console.log("hai this is working fiene")
+    console.log("hai this is working fine")
 
 
     return callback();

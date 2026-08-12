@@ -28,3 +28,11 @@ let pk  = new Promise((resolve,reject)=>{
  }
 
  getData();
+
+
+
+//  note :  👉 If resolve → value is stored in result
+// 👉 If reject → error is thrown and caught in catch 
+
+
+// “Promise runs → if resolve, await returns value to result → if reject, await throws error to catch.”

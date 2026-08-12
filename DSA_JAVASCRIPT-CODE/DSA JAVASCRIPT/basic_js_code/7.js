@@ -1,17 +1,52 @@
 // Sum of digits of a number
 
-let num =34533;
+// let num =34533;
 
-let  sumDigit = function(num){
+// let  sumDigit = function(num){
 
-    let sum  =0;
-     while(num>0){
-        let digit = num %10;
+//     let sum  =0;
+//      while(num>0){
+//         let digit = num %10;
+//         sum = sum +digit;
+//         num  =Math.floor(num/10)
+//      }
+//      return sum
+// };
 
-        sum = sum +digit;
-        num  =Math.floor(num/10)
-     }
-     return sum
-};
+// console.log(sumDigit(2343343))
 
-console.log(sumDigit(2343343))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let sumofDigit = function(num){
+
+   let sum =0;
+  
+   while(num>0){
+      let digit = num %10;
+      sum = sum+digit;
+      num= Math.floor(num /10)
+   }
+
+
+return sum
+}
+
+console.log(sumofDigit(25))

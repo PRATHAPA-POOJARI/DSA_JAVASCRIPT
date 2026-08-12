@@ -16,7 +16,9 @@
 
 // Method 3: Using Array.from() (no spread)
 
-// let  arr  = [23,3,4,56,6,7];
+// let  arr  = [23,3,4,56,6,7];.
+
+
 // let copy  = Array.from(arr);
 
 // console.log(copy)

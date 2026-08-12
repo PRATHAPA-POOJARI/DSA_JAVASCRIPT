@@ -21,31 +21,18 @@
 // console.log(sp)
 
 
+let  pk  = [2,3,4,5,6,7]
+
+let result = 0;
+for(let  i = 0;i<pk.length;i++ ){
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let arr  = [  4,5,10];
-let  count =0 ;
-
-
-for(let i = 0;i<arr.length;i++){
-
-   count  = count + arr[i]
+   result = [result + pk[i]]
 }
 
-console.log(count)
+console.log( result)
+
+
+
+
+

@@ -1,5 +1,5 @@
 
-// // useing  split(),reverse(),join()
+// //  useing  split(),reverse(),join()
 // const pk = 'hello';
 // let mk = pk.split("").reverse().join("");
 // console.log(mk)

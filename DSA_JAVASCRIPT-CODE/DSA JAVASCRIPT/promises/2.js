@@ -29,7 +29,7 @@ if(result){
 }
 else {
   reject('not okay prathap')
-}
+} 
 })
 
 async function handlePromise (){
