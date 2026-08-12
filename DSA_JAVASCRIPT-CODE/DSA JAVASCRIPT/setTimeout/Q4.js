@@ -1,12 +1,17 @@
-// Delay execution of a function.
+
+// Cancel a timeout using clearTimeout().
 
 
 
-setTimeout(()=>{
 
-    function greet(){
-        console.log('Hello, World!');
-    }
-    greet();
-    console.log('This will be logged after 2 seconds.');
-},2000);
+let sp =setTimeout(()=>{
+
+
+console.log("hai")
+},4000)
+
+
+clearTimeout(sp)
+
+// clearTimeout() needs the ID returned by setTimeout(). 
+// setTimeout() → gives timer ID → clearTimeout() uses that ID.

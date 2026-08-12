@@ -1,9 +1,27 @@
-// Cancel a timeout using clearTimeout.
 
- const pl=setTimeout(() => {
-  console.log('This will not be logged.');
-}, 1000);
 
-clearTimeout(pl);
+// Print 1, 2, 3, 4, 5 using setTimeout() such that each number is printed after 1 second.
 
-// console.log(pl)
+
+
+let pk = function(){
+
+   for(let i =0;i<=6;i++){
+
+    setTimeout(()=>{
+
+        console.log(i)
+    },1000*i)
+}
+ 
+}
+
+
+pk()
+// for(let i =0;i<=6;i++){
+
+//     setTimeout(()=>{
+
+//         console.log(i)
+//     },1000*i)
+// }

@@ -1,19 +1,76 @@
 
 
-// function greet() {
-//     console.log('hai')
-// }
+// // function greet() {
+// //     console.log('hai')
+// // }
 
-// setTimeout(greet,10000)
+// // setTimeout(greet,10000)
 
-// setTimeout(function greet(){
+// // setTimeout(function greet(){
 
 
-//     console.log('hai')
+// //     console.log('hai')
+// // },2000)
+
+
+// setTimeout(function pk(){
+
+//     console.log(' hai man ')
 // },2000)
 
 
-setTimeout(function pk(){
 
-    console.log(' hai man ')
-},2000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function pk() {
+    console.log(" hai")
+}

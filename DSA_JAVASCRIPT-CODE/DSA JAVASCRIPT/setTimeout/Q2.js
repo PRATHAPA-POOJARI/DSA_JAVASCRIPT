@@ -1,24 +1,14 @@
- Print numbers from 1 to 5 using setTimeout.
-
-
-// function printNumbers(){
-//     for(let i=1;i<=5;i++){
-//         setTimeout(()=>{
-//             console.log(i)
-//         },1000)
-//     }
-// }
-
-// printNumbers()
+// // 
+// Print numbers from 1 to 5 using setTimeout().
 
 
 
-setTimeout(()=>{
 
-    function pk (){
-        for(let i =1;i<=5;i++){
+
+    setTimeout(()=>{
+        for(let i =0;i<=6;i++){
             console.log(i)
         }
-    }
-    pk()
-},3000)
+    },1000)
+
+

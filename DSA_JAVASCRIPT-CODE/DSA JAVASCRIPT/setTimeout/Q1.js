@@ -1,5 +1,11 @@
-// Print "Hello" after 3 seconds.
+// Print "Hello" after 3 seconds. 
 
-setTimeout(()=>{
-    console.log('Hello')
-},3000)
+
+
+let pk = function(){
+    setTimeout(()=>{
+        console.log("hello")
+    },3000)
+}
+
+pk()

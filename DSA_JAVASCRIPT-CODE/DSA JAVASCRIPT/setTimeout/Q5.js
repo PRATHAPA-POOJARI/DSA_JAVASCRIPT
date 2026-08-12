@@ -1,13 +1,23 @@
-// Execute multiple timeouts with different delays.
+// Write a function that delays the execution of another function by 3 seconds.
 
-setTimeout(()=>{
-    console.log("this is  the first timeout  after 1 second");
-}, 1000)
 
-setTimeout(()=>{
-    console.log("this is the second timeout after 2 seconds");
-}, 2000)
 
-setTimeout(()=>{
-    console.log("this is the third timeout after 3 seconds");
-}   , 3000) ;
+let pk = function(callback){
+
+    setTimeout(()=>{
+        console.log(" hai prathap")
+        callback()
+    },2000)
+}
+
+
+
+function child(){
+
+    console.log(" ha ha  another function is executing later")
+}
+ 
+
+
+pk(child)
+
