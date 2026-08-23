@@ -1,16 +1,8 @@
+// Print numbers continuously every second. 
 
-// Create a digital countdown timer using setInterval(). 
-let  timeLeft = 10;
+let  count  =0
 
-  const timer = setInterval(()=>{
-    console.log(timeLeft);
-    timeLeft--;
-
-
-     if(timeLeft<0){
-        console.log("Time's up!");
-        clearInterval(timer);
-     }
-  },1000 )
-
-
+setInterval(()=>{
+count ++
+       console.log(count)
+},1000)

@@ -1,12 +1,13 @@
-// Print current time every second. 
+// Stop an interval using clearInterval().
 
-// const  pk =   new Date
-// console.log(pk)
+let  count  =0
 
-setInterval(()=>{
-    const  pk =   new Date
-    const  date = pk.toLocaleDateString("en-IN")
-    const time  = pk.toLocaleTimeString("en-IN")
-  console.log(`${date} ${time}`)
+let mk =setInterval(()=>{
+count ++
+       console.log(count)
+
+       if(count ===5){
+        clearInterval(mk)
+       }
 },1000)
 
