@@ -49,3 +49,39 @@ for(const value of user ){
 
 //  Get all values using values()
 
+console.log(user.values()); // SetIterator { "Prathap", "Developer" }
+console.log([...user.values()]);
+// ["Prathapa", "Developer"]
+
+
+// Get all values using keys()
+
+console.log(user.keys()); // SetIterator { "Prathap", "Developer" }
+console.log([...user.keys()]);
+// ["Prathapa", "Developer"]
+
+
+//  Get entries
+console.log(user.entries()); // SetIterator { ["Prathap", "Prathap"], ["Developer", "Developer"] }
+console.log([...user.entries()]);
+// [["Prathapa", "Prathapa"], ["Developer", "Developer"]]
+
+
+
+// Remember: user.keys() gives you an iterator, while [...user.keys()] converts its values into an array.
+
+
+
+// execute  a function  
+
+user.forEach((value) => {     
+    console.log(value);  
+})
+
+
+// Remove all values from  the Set
+
+user.clear();
+console.log(user); // Set(0) {}
+
+console.log(user.size);
